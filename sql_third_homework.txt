@@ -1,0 +1,4 @@
+Select country from country Where country LIKE 'A%a';
+Select country from country Where country LIKE '_____%n';
+Select title from film where film ILIKE '%T%%T%%T%%T%';
+Select title from film where film ILIKE 'C%' AND length>90 AND rental_rate=2.99;
