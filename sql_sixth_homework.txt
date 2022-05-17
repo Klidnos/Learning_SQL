@@ -1,0 +1,7 @@
+Select AVG(rental_Rate) from film;
+
+Select sum(title) from film where title 'C%';
+
+Select rental_rate,Max(length) from film where rental_rate=0.99;
+
+Select count(distinct replacement_cost),length from film where length>150; 
